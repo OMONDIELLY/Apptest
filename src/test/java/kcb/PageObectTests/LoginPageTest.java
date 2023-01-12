@@ -1,10 +1,13 @@
-import PageObjects.LoginPage;
-import PageObjects.SignUpPage;
+package kcb.PageObectTests;
+
+import kcb.PageObjects.LoginPage;
+import kcb.PageObjects.SignUpPage;
+import kcb.BaseTest;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 
-public class LoginPageTest extends BaseTest{
+public class LoginPageTest extends BaseTest {
 
 
     LoginPage loginPage;
@@ -12,7 +15,7 @@ public class LoginPageTest extends BaseTest{
 
     @Test
     public void testLogin() throws MalformedURLException {
-        AndroidSetup();
+         AndroidSetup();
         loginPage = new LoginPage(driver);
         loginPage.enterUserName("Elly");
         loginPage.enterPassword("12345");

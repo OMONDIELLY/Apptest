@@ -1,7 +1,9 @@
-import PageObjects.SignUpPage;
-import org.testng.annotations.Test;
+package kcb.PageObectTests;
 
-public class SignUpPageTest extends BaseTest{
+import kcb.PageObjects.SignUpPage;
+import org.testng.annotations.Test;
+import kcb.BaseTest;
+public class SignUpPageTest extends BaseTest {
 
     SignUpPage signUpPage;
 

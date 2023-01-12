@@ -25,6 +25,7 @@ public class LoginPageTest extends BaseTest{
         signUpPage.clickEnterAddress("40100");
         signUpPage.clickEnterEmail("obare@gmail.com");
         signUpPage.clickEnterPhone("0799945282");
+        signUpPage.saveDetails();
 
     }
 }

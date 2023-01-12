@@ -1,9 +1,11 @@
+package PageObjects;
+
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 
-public class LoginPage extends BasePage{
+public class LoginPage extends BasePage {
     public LoginPage(AppiumDriver<MobileElement> driver) {
         super(driver);
     }

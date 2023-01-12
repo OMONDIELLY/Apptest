@@ -1,3 +1,5 @@
+package PageObjects;
+
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -5,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.security.PublicKey;
 
-public class SignUpPage extends BasePage{
+public class SignUpPage extends BasePage {
 
     public SignUpPage(AppiumDriver<MobileElement> driver) {
         super(driver);

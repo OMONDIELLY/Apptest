@@ -1,6 +1,5 @@
+import PageObjects.SignUpPage;
 import org.testng.annotations.Test;
-
-import java.net.MalformedURLException;
 
 public class SignUpPageTest extends BaseTest{
 

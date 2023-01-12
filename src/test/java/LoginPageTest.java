@@ -1,3 +1,5 @@
+import PageObjects.LoginPage;
+import PageObjects.SignUpPage;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;

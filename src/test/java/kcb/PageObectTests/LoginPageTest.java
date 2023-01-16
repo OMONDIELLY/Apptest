@@ -1,36 +1,26 @@
 package kcb.PageObectTests;
 
-import kcb.PageObjects.LoginPage;
-import kcb.PageObjects.SignUpPage;
 import kcb.BaseTest;
+import kcb.PageObjects.LoginPage;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 
 public class LoginPageTest extends BaseTest {
 
+        
+         LoginPage loginPage;
 
-    LoginPage loginPage;
-    SignUpPage signUpPage;
-
-    @Test
+       
+          @Test()
     public void testLogin() throws MalformedURLException {
-         AndroidSetup();
-        loginPage = new LoginPage(driver);
-        loginPage.enterUserName("Elly");
-        loginPage.enterPassword("12345");
-        loginPage.clickBtn();
+                AndroidSetup();
+             loginPage = new LoginPage(driver);
+               loginPage.enterUserName().
+                             enterPhoneNo("799945282").
+                           clickProceedBtn().tapAllow().pinCode();
+        
+               }
+ 
 
-    }
-
-    @Test
-    public void testSignUp()  {
-        signUpPage = new SignUpPage(driver);
-        signUpPage.clickEnterCountry("Kenya");
-        signUpPage.clickEnterAddress("40100");
-        signUpPage.clickEnterEmail("obare@gmail.com");
-        signUpPage.clickEnterPhone("0799945282");
-        signUpPage.saveDetails();
-
-    }
-}
+         }

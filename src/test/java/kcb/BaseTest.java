@@ -16,7 +16,7 @@ public class BaseTest {
         caps.setCapability("platformName", "Android");
         caps.setCapability("deviceName","RZ8T311NK4Z");
         caps.setCapability("autoAcceptAlerts", true);
-        caps.setCapability("app",  "C:\\apkfiles\\testproject-demo-app.apk");
+        caps.setCapability("app",  "C:\\apkfiles\\kcb_uat10_11 (1).apk");
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), caps);
     }
 

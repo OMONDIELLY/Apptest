@@ -1,0 +1,16 @@
+<suite name="Suite ">
+        <test name="Test">
+            <classes>
+                <class name="kcb.PageObectTests.LoginPageTest">
+               </class>
+                <class name="kcb.PageObectTests.HomePageTest">
+               </class>
+                <class name="kcb.PageObectTests.SendMoney.MpesaSelfTests">
+                </class>
+                <class name="kcb.PageObectTests.SendMoney.MpesaOtherTests">
+                </class>
+                <class name="kcb.PageObectTests.BuyAirtime.SafaricomAirtimeSelfTests">
+                </class>
+           </classes>
+      </test>
+    </suite>

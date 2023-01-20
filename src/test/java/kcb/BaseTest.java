@@ -1,8 +1,12 @@
 package kcb;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -10,6 +14,23 @@ import java.net.URL;
 public class BaseTest {
 
     public static AppiumDriver driver;
+    public static ExtentHtmlReporter htmlReporter;
+    public static ExtentReports extentReporter;
+    @BeforeSuite
+    public void setUpReport(){
+
+        htmlReporter = new ExtentHtmlReporter("testReports.html");
+        extentReporter= new ExtentReports();
+
+
+        extentReporter.attachReporter(htmlReporter);
+
+    }
+
+    @AfterSuite
+    public void tearDownReport(){
+        extentReporter.flush();
+    }
 
     public static void AndroidSetup() throws MalformedURLException{
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -28,5 +49,8 @@ public class BaseTest {
         }
 
     }
+
+
+
 
 }

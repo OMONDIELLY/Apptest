@@ -5,8 +5,11 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import kcb.BasePage;
 import kcb.PageObjects.LoginPage;
+import org.apache.log4j.Logger;
 
 public class MpesaSelf extends BasePage {
+
+    Logger logger = Logger.getLogger(MpesaSelf.class);
 
     public MpesaSelf(AppiumDriver<MobileElement> driver) {
         super(driver);
@@ -40,7 +43,7 @@ public class MpesaSelf extends BasePage {
     public MpesaSelf sendMoney() throws InterruptedException {
         waitForElement(sendMny);
         click(sendMny);
-        System.out.println("Clicked send money");
+        logger.info("Clicked send money option");
         return this;
 
     }
@@ -50,25 +53,25 @@ public class MpesaSelf extends BasePage {
         waitForElement(amountField);
         click(amountField);
         sendKeys(amountField,amnt);
+        logger.info("Entered amount");
         hideKeyBoard();
-        System.out.println("Entered amount");
         return this;
 
 
     }
 
     public MpesaSelf submit() throws InterruptedException {
-        //LoginPage loginPage = new LoginPage(driver);
         click(send);
         click(submitBtn);
+        logger.info("Clicked submit ");
         sendCode();
-        System.out.println("Entered pin");
+        logger.info("Clicked pin code");
         return this;
 
     }
 
     public String getConfrimation(){
-        System.out.println("Getting status");
+        logger.info("Getting status");
         return confSummary.getText();
 
     }
@@ -77,7 +80,7 @@ public class MpesaSelf extends BasePage {
         waitForElement(confirmationPg);
         confirmationPg.isDisplayed();
         click(confirmationPg);
-        System.out.println("completed");
+        logger.info("Completed");
         return this;
     }
 

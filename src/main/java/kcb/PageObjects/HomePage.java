@@ -4,8 +4,11 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import kcb.BasePage;
+import org.apache.log4j.Logger;
+
 public class HomePage extends BasePage {
 
+    private static Logger logger = Logger.getLogger(HomePage.class);
 
    public HomePage(AppiumDriver<MobileElement> driver) {
                super(driver);
@@ -28,6 +31,7 @@ public class HomePage extends BasePage {
       public MobileElement back;
 
     public String VerifyProfile(){
+        logger.info("Checking Home Page and name");
            return profile.getText();
        }
 
@@ -36,10 +40,12 @@ public class HomePage extends BasePage {
     }
 
       public String VerifyName(){
+        logger.info("Checking Customer name");
         return name.getText();
       }
 
     public String VerifyNumber(){
+        logger.info("Checking Customer phone no");
         return phone.getText();
     }
     public void clickBck(){

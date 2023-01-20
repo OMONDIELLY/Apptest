@@ -4,8 +4,11 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import kcb.BasePage;
+import org.apache.log4j.Logger;
 
 public class MpesaOther extends BasePage {
+
+    Logger logger = Logger.getLogger(MpesaOther.class);
     public MpesaOther(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
@@ -41,10 +44,11 @@ public class MpesaOther extends BasePage {
     public MpesaOther sendMoney(String phoneNo) throws InterruptedException {
         waitForElement(sendMny);
         click(sendMny);
-        System.out.println("Clicked send money");
+        logger.info("Clicked send money option");
         click(sendOther);
+        logger.info("Clicked other option");
         sendKeys(inputRecepientNumber,phoneNo);
-        System.out.println("Entered phone no");
+        logger.info("Entered phone no");
         return this;
 
     }
@@ -54,8 +58,8 @@ public class MpesaOther extends BasePage {
         waitForElement(amountField);
         click(amountField);
         sendKeys(amountField,amnt);
+        logger.info("Entered amount");
         hideKeyBoard();
-        System.out.println("Entered amount");
         return this;
 
 
@@ -64,13 +68,13 @@ public class MpesaOther extends BasePage {
     public MpesaOther submit() throws InterruptedException {
         click(send);
         click(submitBtn);
-        System.out.println("Entered pin");
+        logger.info("Entered pin");
         return this;
 
     }
 
     public String getConfrimation(){
-        System.out.println("Getting status");
+        logger.info("Getting status");
         return confSummary.getText();
 
     }
@@ -78,8 +82,9 @@ public class MpesaOther extends BasePage {
     public MpesaOther confirm(){
         waitForElement(confirmationPg);
         confirmationPg.isDisplayed();
+
         click(confirmationPg);
-        System.out.println("completed");
+        logger.info("Completed");
         return this;
     }
 }

@@ -432,3 +432,111 @@
 2023-01-20 15:39:56 INFO  MpesaOther:49 - Clicked other option
 2023-01-20 15:39:58 INFO  MpesaOther:51 - Entered phone no
 2023-01-20 15:40:01 INFO  MpesaOther:61 - Entered amount
+2023-01-30 11:43:56 INFO  LoginPage:42 - Clicked get started
+2023-01-30 11:43:59 INFO  LoginPage:51 - Entered phone No
+2023-01-30 11:44:00 INFO  LoginPage:57 - Clicked proceed button
+2023-01-30 11:44:23 INFO  HomePage:34 - Checking Home Page and name
+2023-01-30 11:44:33 INFO  HomePage:34 - Checking Home Page and name
+2023-01-30 11:50:33 INFO  LoginPage:42 - Clicked get started
+2023-01-30 11:50:36 INFO  LoginPage:51 - Entered phone No
+2023-01-30 11:50:37 INFO  LoginPage:57 - Clicked proceed button
+2023-01-30 11:50:53 INFO  LoginPage:69 - Entered pin code
+2023-01-30 11:50:57 INFO  LoginPage:76 - Loading home icon
+2023-01-30 11:50:57 INFO  HomePage:34 - Checking Home Page and name
+2023-01-30 11:50:57 INFO  HomePage:34 - Checking Home Page and name
+2023-01-30 11:50:58 INFO  HomePage:43 - Checking Customer name
+2023-01-30 11:51:03 INFO  MpesaSelf:46 - Clicked send money option
+2023-01-30 11:51:06 INFO  MpesaSelf:56 - Entered amount
+2023-01-30 11:51:12 INFO  MpesaSelf:66 - Clicked submit 
+2023-01-30 11:51:18 INFO  MpesaSelf:68 - Clicked pin code
+2023-01-30 11:51:18 INFO  MpesaSelf:74 - Getting status
+2023-01-30 11:51:19 INFO  MpesaSelf:74 - Getting status
+2023-01-30 11:51:20 INFO  MpesaSelf:83 - Completed
+2023-01-30 11:51:23 INFO  MpesaOther:47 - Clicked send money option
+2023-01-30 11:51:24 INFO  MpesaOther:49 - Clicked other option
+2023-01-30 11:51:25 INFO  MpesaOther:51 - Entered phone no
+2023-01-30 11:51:28 INFO  MpesaOther:61 - Entered amount
+2023-01-30 12:38:00 INFO  LoginPage:42 - Clicked get started
+2023-01-30 12:38:04 INFO  LoginPage:51 - Entered phone No
+2023-01-30 12:38:04 INFO  LoginPage:57 - Clicked proceed button
+2023-01-30 12:38:20 INFO  LoginPage:69 - Entered pin code
+2023-01-30 12:38:24 INFO  LoginPage:76 - Loading home icon
+2023-01-30 12:38:25 INFO  HomePage:34 - Checking Home Page and name
+2023-01-30 12:38:25 INFO  HomePage:34 - Checking Home Page and name
+2023-01-30 12:38:25 INFO  HomePage:43 - Checking Customer name
+2023-01-30 12:38:28 INFO  MpesaSelf:46 - Clicked send money option
+2023-01-30 12:38:32 INFO  MpesaSelf:56 - Entered amount
+2023-01-30 12:38:38 INFO  MpesaSelf:66 - Clicked submit 
+2023-01-30 12:38:43 INFO  MpesaSelf:68 - Clicked pin code
+2023-01-30 12:38:43 INFO  MpesaSelf:74 - Getting status
+2023-01-30 12:38:44 INFO  MpesaSelf:74 - Getting status
+2023-01-30 12:38:45 INFO  MpesaSelf:83 - Completed
+2023-01-30 12:38:48 INFO  MpesaOther:47 - Clicked send money option
+2023-01-30 12:38:49 INFO  MpesaOther:49 - Clicked other option
+2023-01-30 12:38:50 INFO  MpesaOther:51 - Entered phone no
+2023-01-30 12:38:53 INFO  MpesaOther:61 - Entered amount
+2023-01-30 12:38:58 INFO  MpesaOther:71 - Entered pin
+2023-01-30 12:38:58 INFO  MpesaOther:77 - Getting status
+2023-01-30 12:39:00 INFO  MpesaOther:77 - Getting status
+2023-01-30 12:39:01 INFO  MpesaOther:87 - Completed
+2023-01-30 12:39:16 INFO  SafaricomAirtimeOther:51 - Entered phone no
+2023-01-30 15:32:25 INFO  LoginPage:42 - Clicked get started
+2023-01-30 15:32:28 INFO  LoginPage:51 - Entered phone No
+2023-01-30 15:32:28 INFO  LoginPage:57 - Clicked proceed button
+2023-01-30 15:32:56 INFO  HomePage:34 - Checking Home Page and name
+2023-01-30 15:33:07 INFO  HomePage:34 - Checking Home Page and name
+2023-01-30 15:33:39 INFO  LoginPage:42 - Clicked get started
+2023-01-30 15:33:42 INFO  LoginPage:51 - Entered phone No
+2023-01-30 15:33:43 INFO  LoginPage:57 - Clicked proceed button
+2023-01-30 15:34:00 INFO  LoginPage:69 - Entered pin code
+2023-01-30 15:34:05 INFO  LoginPage:76 - Loading home icon
+2023-01-30 15:34:05 INFO  HomePage:34 - Checking Home Page and name
+2023-01-30 15:34:05 INFO  HomePage:34 - Checking Home Page and name
+2023-01-30 15:34:05 INFO  HomePage:43 - Checking Customer name
+2023-01-30 15:34:09 INFO  MpesaSelf:46 - Clicked send money option
+2023-01-30 15:34:13 INFO  MpesaSelf:56 - Entered amount
+2023-01-30 15:34:18 INFO  MpesaSelf:66 - Clicked submit 
+2023-01-30 15:34:22 INFO  MpesaSelf:68 - Clicked pin code
+2023-01-30 15:34:22 INFO  MpesaSelf:74 - Getting status
+2023-01-30 15:34:26 INFO  MpesaSelf:74 - Getting status
+2023-01-30 15:34:26 INFO  MpesaSelf:83 - Completed
+2023-01-30 15:34:29 INFO  MpesaOther:47 - Clicked send money option
+2023-01-30 15:34:30 INFO  MpesaOther:49 - Clicked other option
+2023-01-30 15:34:31 INFO  MpesaOther:51 - Entered phone no
+2023-01-30 15:34:35 INFO  MpesaOther:61 - Entered amount
+2023-01-30 15:34:39 INFO  MpesaOther:71 - Entered pin
+2023-01-30 15:34:39 INFO  MpesaOther:77 - Getting status
+2023-01-30 15:34:41 INFO  MpesaOther:77 - Getting status
+2023-01-30 15:34:42 INFO  MpesaOther:87 - Completed
+2023-01-30 15:34:57 INFO  SafaricomAirtimeOther:51 - Entered phone no
+2023-03-01 11:49:35 INFO  LoginPage:42 - Clicked get started
+2023-03-01 11:49:38 INFO  LoginPage:51 - Entered phone No
+2023-03-01 11:49:39 INFO  LoginPage:57 - Clicked proceed button
+2023-03-01 11:49:57 INFO  HomePage:34 - Checking Home Page and name
+2023-03-01 11:50:07 INFO  HomePage:34 - Checking Home Page and name
+2023-04-27 07:51:09 INFO  LoginPage:42 - Clicked get started
+2023-04-27 07:51:12 INFO  LoginPage:51 - Entered phone No
+2023-04-27 07:51:13 INFO  LoginPage:57 - Clicked proceed button
+2023-04-27 07:51:34 INFO  LoginPage:69 - Entered pin code
+2023-04-27 07:51:38 INFO  HomePage:34 - Checking Home Page and name
+2023-04-27 07:51:42 INFO  HomePage:34 - Checking Home Page and name
+2023-04-27 07:51:45 INFO  HomePage:43 - Checking Customer name
+2023-04-27 07:51:49 INFO  MpesaSelf:46 - Clicked send money option
+2023-04-27 07:51:52 INFO  MpesaSelf:56 - Entered amount
+2023-04-27 07:52:07 INFO  MpesaOther:47 - Clicked send money option
+2023-04-27 07:52:08 INFO  MpesaOther:49 - Clicked other option
+2023-04-27 07:52:09 INFO  MpesaOther:51 - Entered phone no
+2023-04-27 07:52:12 INFO  MpesaOther:61 - Entered amount
+2023-04-27 07:54:33 INFO  LoginPage:42 - Clicked get started
+2023-04-27 07:54:39 INFO  LoginPage:51 - Entered phone No
+2023-04-27 07:54:40 INFO  LoginPage:57 - Clicked proceed button
+2023-04-27 07:54:59 INFO  LoginPage:69 - Entered pin code
+2023-04-27 07:55:09 INFO  HomePage:34 - Checking Home Page and name
+2023-04-27 07:55:12 INFO  HomePage:34 - Checking Home Page and name
+2023-04-27 07:55:14 INFO  HomePage:43 - Checking Customer name
+2023-04-27 07:55:16 INFO  MpesaSelf:46 - Clicked send money option
+2023-04-27 07:55:20 INFO  MpesaSelf:56 - Entered amount
+2023-04-27 07:55:40 INFO  MpesaOther:47 - Clicked send money option
+2023-04-27 07:55:41 INFO  MpesaOther:49 - Clicked other option
+2023-04-27 07:55:42 INFO  MpesaOther:51 - Entered phone no
+2023-04-27 07:55:45 INFO  MpesaOther:61 - Entered amount

@@ -6,8 +6,13 @@ import kcb.BaseTest;
 import kcb.PageObjects.HomePage;
 import kcb.PageObjects.LoginPage;
 import kcb.PageObjects.SendMoney.MpesaSelf;
+import kcb.utils.JSONUtils;
+import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import static kcb.DataConstants.*;
+import static kcb.DataConstants.TEST_DATA_JSON_AMOUNT;
 
 public class MpesaSelfTests extends BaseTest {
     HomePage homePage;
@@ -21,7 +26,13 @@ public class MpesaSelfTests extends BaseTest {
         mpesaSelf = new MpesaSelf(driver);
         ExtentTest test = extentReporter.createTest("Send Money", "Send to self mpesa");
 
-        mpesaSelf.sendMoney().inputAmount("2").
+        JSONObject jsonObject=
+                new JSONUtils()
+                        .getJSONObject(TEST_DATA_JSON_FILE)
+                        .getJSONObject(TEST_DATA_JSON_TRANSACTIONS);
+
+        String amnt = jsonObject.getString(TEST_DATA_JSON_AMOUNT);
+        mpesaSelf.sendMoney().inputAmount(amnt).
                 submit();
 
         test.log(Status.INFO,"Clicked send money, entered amount and submitted");

@@ -4,5 +4,11 @@
     "countryName": "kenya",
     "phoneNo": "0799945282",
     "pin": "2219"
+  },
+
+  "transactions": {
+    "amount": "200",
+    "phoneNo": "0799945282",
+    "otherPhoneNo":"0720298739"
   }
 }

@@ -5,8 +5,12 @@ import com.aventstack.extentreports.Status;
 import kcb.BaseTest;
 import kcb.PageObjects.HomePage;
 import kcb.PageObjects.SendMoney.MpesaOther;
+import kcb.utils.JSONUtils;
+import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import static kcb.DataConstants.*;
 
 public class MpesaOtherTests extends BaseTest {
 
@@ -18,9 +22,18 @@ public class MpesaOtherTests extends BaseTest {
         mpesaOther = new MpesaOther(driver);
         ExtentTest test = extentReporter.createTest("Mpesa Other","Send Money to other Mpesa");
 
-        mpesaOther.sendMoney("0720681195").inputAmount("2").
-                submit();
-        mpesaOther.getConfrimation();
+//reading json data
+        JSONObject jsonObject=
+                new JSONUtils()
+                        .getJSONObject(TEST_DATA_JSON_FILE)
+                        .getJSONObject(TEST_DATA_JSON_TRANSACTIONS);
+
+
+        String othrPhoneNo = jsonObject.getString(TEST_DATA_JSON_OTHER_PHONE_NO);
+        String amnt = jsonObject.getString(TEST_DATA_JSON_AMOUNT);
+
+        mpesaOther.sendMoney(othrPhoneNo).inputAmount(amnt).
+                submit().getConfrimation();
 
         test.log(Status.INFO, "Waiting for confirmation");
 

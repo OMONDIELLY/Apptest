@@ -11,6 +11,8 @@
                 </class>
                 <class name="kcb.PageObectTests.BuyAirtime.SafaricomAirtimeSelfTests">
                 </class>
+                <class name="kcb.PageObectTests.BuyAirtime.SafaricomAirtimeOtherTests">
+                </class>
            </classes>
       </test>
     </suite>
